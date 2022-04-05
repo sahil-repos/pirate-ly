@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Mansalva&family=Reggae+One&display=swap');
+
+:root{
+    --primary-color: rgb(110, 209, 245);
+    --seconday-color: rgb(247, 125, 50);
+}
+
+
+body{
+    margin:0px;
+    /* font-family: 'Mansalva', cursive; */
+    
+    background-color: var(--primary-color);
+}
+
+/*Input output boxes*/
+#txt-output{
+    font-family: 'Fontdiner Swanky', cursive;
+    padding: 2rem;
+    border: 1px solid black;
+    display: block;
+    width: 70%;
+    height: 4rem;
+    margin: 2rem auto;
+    background-color: white;
+    font-size: x-large;
+}
+
+#txt-input{
+    font-family: 'Fontdiner Swanky', cursive;
+    padding: 2rem;
+    display: block;
+    height: 4rem;
+    width: 70%;
+    margin: 1rem auto;
+    font-size: x-large;
+}
+
+/*Header style*/
+.prim{
+    background-color: var(--seconday-color);
+    padding: 1rem;
+}
+
+.header{
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Reggae One', cursive;
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+
+.stroke{
+    -webkit-text-stroke: 1px rgb(3, 3, 3);
+}
+
+
+/*Button*/
+#btn-check{
+    font-family: 'Indie Flower', cursive;
+    display: block;
+    margin: 2rem auto;
+    background-color: var(--seconday-color);
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 1rem;
+    font-weight: bolder;
+    font-size: x-large;
+    border-color: var(--seconday-color);
+    box-shadow:  1px 1px 20px 0 var(--seconday-color);
+    
+}
+
+.container{
+    padding: 1rem;
+
+}
+
+.bot-text{
+    text-align: center;
+    font-family: 'Reggae One', cursive;
+}
+/*Footer*/
+
+.footer{
+    background-color: var(--seconday-color);
+   
+    margin: 0;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    font-family: 'Reggae One', cursive;
+}
+
+
+.skills__icon {
+    font-size: 2rem;
+    margin-right: 2rem;
+    color: black;
+  }
+
+
+
